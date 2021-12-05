@@ -99,7 +99,9 @@ module.exports = {
         ws: false,
         changeOrigin: true
       },
-    }
+    },
+    compress: true,
+    disableHostCheck: true
   },
 
   lintOnSave: undefined
